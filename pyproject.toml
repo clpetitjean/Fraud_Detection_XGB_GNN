@@ -1,0 +1,19 @@
+[project]
+name = "fraud-detection"
+version = "0.1.0"
+requires-python = ">=3.10"
+dependencies = [
+  "pandas", "numpy", "scikit-learn", "xgboost",
+  "imbalanced-learn", "torch", "torch-geometric",
+  "fastapi", "uvicorn", "pydantic", "pyyaml",
+]
+
+[project.optional-dependencies]
+dev = ["pytest", "ruff", "pre-commit", "nbstripout", "jupyter", "httpx"]
+
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools.packages.find]
+where = ["src"]
