@@ -12,3 +12,4 @@ models/*
 
 mlruns/
 .vscode/
+*.egg-info/
