@@ -6,7 +6,7 @@ dependencies = [
   "pandas", "numpy", "scikit-learn", "xgboost",
   "imbalanced-learn", "torch", "torch-geometric",
   "fastapi", "uvicorn", "pydantic", "pyyaml", 
-  "pyarrow",
+  "pyarrow", "matplotlib",
 ]
 
 [project.optional-dependencies]
