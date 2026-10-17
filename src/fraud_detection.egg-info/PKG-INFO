@@ -13,6 +13,7 @@ Requires-Dist: fastapi
 Requires-Dist: uvicorn
 Requires-Dist: pydantic
 Requires-Dist: pyyaml
+Requires-Dist: pyarrow
 Provides-Extra: dev
 Requires-Dist: pytest; extra == "dev"
 Requires-Dist: ruff; extra == "dev"

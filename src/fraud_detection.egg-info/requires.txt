@@ -9,6 +9,7 @@ fastapi
 uvicorn
 pydantic
 pyyaml
+pyarrow
 
 [dev]
 pytest
