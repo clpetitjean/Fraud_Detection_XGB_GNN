@@ -5,7 +5,8 @@ requires-python = ">=3.10"
 dependencies = [
   "pandas", "numpy", "scikit-learn", "xgboost",
   "imbalanced-learn", "torch", "torch-geometric",
-  "fastapi", "uvicorn", "pydantic", "pyyaml",
+  "fastapi", "uvicorn", "pydantic", "pyyaml", 
+  "pyarrow",
 ]
 
 [project.optional-dependencies]
