@@ -1,0 +1,6 @@
+split:
+  val_days: 30
+  test_days: 30
+
+preprocessing:
+  v_corr_threshold: 0.9
