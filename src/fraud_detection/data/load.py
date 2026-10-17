@@ -40,3 +40,9 @@ def save_interim(
     path = INTERIM_DIR / name
     df.to_parquet(path, index=False)
     return path
+
+
+def load_interim(
+    name: str = "train_merged.parquet",
+) -> pd.DataFrame:
+    return pd.read_parquet(INTERIM_DIR / name)
