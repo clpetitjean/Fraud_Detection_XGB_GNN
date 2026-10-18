@@ -1,0 +1,13 @@
+smote:
+  method: smotenc
+  sampling_strategy: 0.25
+  k_neighbors: 5
+  random_state: 0
+
+product_smote:
+  group_col: ProductCD
+  sampling_strategy: 0.25
+  k_neighbors: 5
+  random_state: 0
+  # Les variables qu'on va toujours copier et jamais interpolé (comme vu dans l'analyse 01_eda).
+  discrete_cols: [card1, card2, card3, card5, addr1, addr2, n_decimals, hour, weekday]
