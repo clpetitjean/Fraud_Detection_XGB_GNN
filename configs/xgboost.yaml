@@ -2,7 +2,7 @@
 # et valeurs de base complétées par l'optimisation sinon
 params:
   device: cuda
-  n_estimators: 2000
+  n_estimators: 10000
   learning_rate: 0.05
   max_depth: 8
   subsample: 0.8
@@ -11,7 +11,7 @@ params:
   random_state: 0
 
 tuning:
-  enabled: true       # true pour lancer l'optimisation
+  enabled: false      # true pour lancer l'optimisation
   sampler: tpe          # tpe ou gp (processus gaussien)
   n_trials: 20
   timeout_minutes: 90  # arrêt même si n_trials n'est pas atteint

@@ -6,7 +6,7 @@ params:
   learning_rate: 0.021925718039961635
   max_depth: 11
   min_child_weight: 4.242816852703695
-  n_estimators: 2000
+  n_estimators: 10000
   random_state: 0
   reg_alpha: 1.1531579829344545
   reg_lambda: 0.002165541822107234
