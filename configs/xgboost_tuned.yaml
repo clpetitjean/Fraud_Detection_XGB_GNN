@@ -1,0 +1,15 @@
+params:
+  colsample_bytree: 0.9875727409797845
+  device: cuda
+  early_stopping_rounds: 100
+  gamma: 0.19536173488610808
+  learning_rate: 0.021925718039961635
+  max_depth: 11
+  min_child_weight: 4.242816852703695
+  n_estimators: 2000
+  random_state: 0
+  reg_alpha: 1.1531579829344545
+  reg_lambda: 0.002165541822107234
+  subsample: 0.9024402844801506
+tuning:
+  enabled: false
